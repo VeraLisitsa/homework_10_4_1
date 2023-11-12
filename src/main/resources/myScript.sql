@@ -1,0 +1,1 @@
+select order.productName from Order order join Customer customer on customer.id = order.customerId where customer.name = :name
